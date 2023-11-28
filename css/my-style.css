@@ -1,0 +1,28 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.swip-default {
+    padding: 50px;
+    background-color: yellowgreen;
+}
+.slide {
+    display: block;
+    width: 100px;
+    height: 20px;
+    background-color: yellow;
+}
